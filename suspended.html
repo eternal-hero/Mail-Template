@@ -1,0 +1,496 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Account Suspended</title>
+    <style>
+        @font-face {
+            font-family: 'BlissHeavy';
+            src: url('./fonts/BlissHeavy/BlissHeavy\ Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        img {
+            border: none;
+            -ms-interpolation-mode: bicubic;
+            max-width: 100%;
+        }
+
+        .logo-img {
+            margin: 12px 0px;
+        }
+
+        body {
+            background-color: #FFFFFF;
+            font-family: Arial;
+            -webkit-font-smoothing: antialiased;
+            font-size: 16px;
+            line-height: 1.4;
+            margin: 0;
+            padding: 0;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        table {
+            border-collapse: separate;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            width: 100%;
+        }
+
+        table td {
+            font-family: Arial;
+            font-size: 16px;
+            vertical-align: top;
+        }
+
+        .content-footer-description {
+            text-align: center;
+            /* Air/System small text */
+            font-family: Arial;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            /* 19.6px */
+        }
+
+        .body {
+            background-color: #fff;
+            width: 100%;
+        }
+
+        .container {
+            display: block;
+            margin: 0 auto !important;
+            /* makes it centered */
+            max-width: 600px;
+            padding: 10px;
+            width: 600px;
+        }
+
+        .content {
+            box-sizing: border-box;
+            display: block;
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 10px;
+        }
+
+        .content-container {
+            border: 1px solid #E7E7E8;
+            border-radius: 16px;
+            padding: 18px;
+        }
+
+        .content-title {
+            color: #0D2233;
+            font-family: 'BlissHeavy';
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 124%;
+            /* 39.68px */
+            text-transform: capitalize;
+            text-align: left;
+        }
+
+        .content-description {
+            color: #0D2233;
+            /* Air/System default text */
+            font-family: Arial;
+            font-size: 16px;
+            font-style: normal;
+            padding: 32px 0px;
+            font-weight: 400;
+            line-height: 140%;
+            /* 22.4px */
+        }
+
+        .content-wrap {
+            margin: 44px 0px 32px 0px;
+            display: block;
+        }
+
+        .content-footer {
+            border-radius: 8px;
+            background: #E7E7E8;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .content-footer-company {
+            color: var(--air-business-dark-navy, #0D2233);
+            display: block;
+            /* Air/System caption */
+            font-family: Arial;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            margin-top: 16px;
+            /* 16.8px */
+        }
+
+        .p-20 {
+            padding: 20px;
+        }
+
+        .my-32 {
+            margin: 32px auto;
+            display: block;
+        }
+
+        .px-20 {
+            padding: 0px 40px;
+            display: block;
+        }
+
+        .content-footer .links div {
+            display: inline;
+            line-height: 2;
+            margin: 20px 5px;
+        }
+
+        .main {
+            background: #ffffff;
+            border-radius: 3px;
+            width: 100%;
+        }
+
+        .wrapper {
+            box-sizing: border-box;
+            padding: 20px;
+        }
+
+        .content-block {
+            padding-bottom: 10px;
+            width: 70%;
+            padding-top: 10px;
+            display: block;
+            margin: auto;
+        }
+
+        .footer {
+            clear: both;
+            margin-top: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer td,
+        .footer p,
+        .footer span,
+        .footer a {
+            color: #999999;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #000000;
+            font-family: sans-serif;
+            font-weight: 400;
+            line-height: 1.4;
+            margin: 0;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 35px;
+            font-weight: 300;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        p,
+        ul,
+        ol {
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+
+        p li,
+        ul li,
+        ol li {
+            list-style-position: inside;
+            margin-left: 5px;
+        }
+
+        a {
+            text-decoration: underline;
+            color: var(--air-business-dark-navy, #0D2233);
+            font-family: Arial;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            text-decoration-line: underline;
+        }
+
+        .btn {
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        .btn>tbody>tr>td {
+            padding-bottom: 15px;
+        }
+
+        .btn table {
+            width: auto;
+        }
+
+        .btn table td {
+            background-color: #ffffff;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .btn a {
+            background-color: #ffffff;
+            border: solid 1px #0D2233;
+            border-radius: 5px;
+            box-sizing: border-box;
+            color: #3498db;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0;
+            padding: 12px 25px;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+
+        .btn-dack table td {
+            background-color: #0D2233;
+        }
+
+        .btn-dack a {
+            background-color: #0D2233;
+            border-color: #0D2233;
+            color: #ffffff;
+            font-family: 'BlissHeavy';
+        }
+
+        .align-center {
+            text-align: center;
+        }
+
+        .align-right {
+            text-align: right;
+        }
+
+        .align-left {
+            text-align: left;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+
+        @media only screen and (max-width: 620px) {
+
+            .p-20 {
+                padding: 10px;
+            }
+
+            .px-20 {
+                padding: 0px;
+                display: block;
+            }
+
+            table.body p,
+            table.body ul,
+            table.body ol,
+            table.body td,
+            table.body span,
+            table.body a {
+                font-size: 14px !important;
+            }
+
+            table.body .wrapper,
+            table.body .article {
+                padding: 10px !important;
+            }
+
+            table.body .content {
+                padding: 0 !important;
+            }
+
+            table.body .container {
+                padding: 0 !important;
+                width: 100% !important;
+            }
+
+            table.body .main {
+                border-left-width: 0 !important;
+                border-radius: 0 !important;
+                border-right-width: 0 !important;
+            }
+
+            table.body .btn table {
+                width: 100% !important;
+            }
+
+            table.body .btn a {
+                width: 100% !important;
+            }
+
+            table.body .img-responsive {
+                height: auto !important;
+                max-width: 100% !important;
+                width: auto !important;
+            }
+
+            .content-wrap {
+                margin: 24px 0px 16px 0px;
+                color: var(--air-business-dark-navy, #0D2233);
+                /* Air/System default text */
+                font-family: Arial;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%;
+                /* 22.4px */
+            }
+
+            .content-footer {
+                padding: 13px;
+            }
+
+            .content-title {
+                font-size: 24px;
+                text-align: left;
+            }
+
+            .content-description {
+                padding: 20px 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table border="0" cellpadding="0" cellspacing="0" class="body">
+        <tr>
+            <td class="container">
+                <div class="content">
+                    <table class="main">
+                        <tr>
+                            <td class="wrapper">
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            <div class="align-center">
+                                                <img src="./images/Consero full logo.png" alt="Consero full logo.png"
+                                                    class="align-center logo-img" />
+                                            </div>
+
+                                            <table role="presentation" border="0" cellpadding="0" cellspacing="0"
+                                                class="content-container">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <div class="content-title">Your account has been suspended
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p class="content-description">
+                                                                Contact your administrator for more information.
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="p-20">
+                        <table class="content-footer">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="content-footer-description">This e-mail should be sent using
+                                            no-reply+release-airbusiness@xmlship.dev
+                                            as
+                                            the sender address. The final part of the e-mail address always ends with
+                                            {Company name}. Always check this carefully!</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="margin-top: 16px; display: block;">
+                                        <span class="content-footer-description px-20" style='color: #7F7F7F;'>
+                                            If you cannot view this e-mail correctly, please <a href="#">click here</a>
+                                            for the
+                                            web version.
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="./images/footer logo.png" alt="footer logo.png" width="210px"
+                                            class="m-auto my-32" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="links">
+                                            <div>
+                                                <a href="">Privacy Policy</a>
+                                            </div>
+                                            <div>
+                                                <a href="">Terms and Conditions</a>
+                                            </div>
+                                            <div>
+                                                <a href="">Customer Service</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="content-footer-company">
+                                            © 2023 {Company name}. All rights reserved.
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="footer">
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td class="content-block">
+                                    <span class="apple-link">This is an auto-generated email. Please do not reply to the
+                                        sender, your message cannot be processed.</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</body>
+
+</html>
